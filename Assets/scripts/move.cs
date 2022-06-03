@@ -5,7 +5,7 @@ using UnityEngine;
 public class move : MonoBehaviour
 {
 
-    private float speed = 1f;
+    public float speed = 1f;
     private Vector3 moveDelta;
     
     void Start()
