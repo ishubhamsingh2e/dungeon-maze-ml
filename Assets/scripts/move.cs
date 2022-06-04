@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class move : MonoBehaviour
 {
-
     public float speed = 1f;
+
+    private BoxCollider2D boxCollider;
     private Vector3 moveDelta;
     
     void Start()
@@ -15,8 +16,8 @@ public class move : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
+        float x = Input.GetAxisRaw("Horizontal");
+        float y = Input.GetAxisRaw("Vertical");
 
         moveDelta = new Vector3(x,y,0);
 

@@ -418,7 +418,7 @@ TextureImporter:
         width: 64
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -439,7 +439,7 @@ TextureImporter:
         width: 47
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -460,7 +460,7 @@ TextureImporter:
         width: 17
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -481,7 +481,7 @@ TextureImporter:
         width: 9
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -489,6 +489,48 @@ TextureImporter:
       bones: []
       spriteID: 70a4bc2c904008d448fbfabaa4f07a27
       internalID: -195822052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stair
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7ae362560e9b84da0e18de70cf277f
+      internalID: -1290350166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16_wall
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d43d9b183a8d34f9501e7efdd1fd97
+      internalID: -1488103352
       vertices: []
       indices: 
       edges: []
@@ -508,11 +550,13 @@ TextureImporter:
       fire_2: -1356777877
       box: 133973817
       fire_6: -1586239024
+      stair: -1290350166
       floor_patch: 1981237356
       fire_0: -641222055
       player_0: 1793067056
       wall: 1573916319
       fire_4: -1485273983
+      16x16_wall: -1488103352
       fire_5: -1607411652
       lava: -318370372
       fire_1: 1530957004
